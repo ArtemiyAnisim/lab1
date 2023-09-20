@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.head{
+    padding: 24px 0;
+    background: #F6F5F4; 
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.head__text_w{
+    color: #757575;
+}
+
+/* header */
+
+.head__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head__logo{
+    display: flex ;
+    align-items: center;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user__name{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.04em;
+text-align: center;
+color: #2B788B;
+}
+
+.user__log{
+    background: #C3DCE3;
+    padding: 2px 8px;
+    border-radius: 17px;
+}
+
+
+
+.head__title{
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+}
+
+.head__home{
+    color: #000000;
+}
+
+
+
+.head__signin{
+    color: #000000;
+}
+
+/* main */
+
+.main__title{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.14em;
+text-align: left;
+color: #2B788B;
+margin-bottom: 24px
+}
+
+.main{
+    background: #F6F5F4;
+}
+
+.main__about{
+    width: 110px;
+height: 25px;
+padding: 14px, 22px, 14px, 22px;
+border-radius: 100px;
+gap: 19px;
+background: #C3DCE3;
+}
+
+.main__main{
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main__title2{
+font-family: Dela Gothic One;
+font-size: 56px;
+font-weight: 400;
+line-height: 67px;
+letter-spacing: -0.04em;
+text-align: left;
+margin-bottom: 30px;
+color: #000000;
+}
+
+.main__text{
+    margin-bottom: 46px;
+    color: #757575;
+}
+
+.main__about{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #2B788B;
+}
+
+
+/* progress */
+
+.progress__progress{
+    margin-top: 95px;
+    display: flex;
+   
+
+}
+
+.progress__title{
+    font-family:Montserrat;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.progress__text{
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: -0.04em;
+text-align: left;
+margin-bottom: 34px;
+color: #757575;
+}
+
+.progress__about{
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: -0.04em;
+text-align: left;
+color:#2B788B;
+width: 100px;
+height: 25px;
+padding: 14px, 22px, 14px, 22px;
+border-radius: 100px;
+gap: 19px;
+background: #C3DCE3;
+}
+
+.progress__texts{
+  justify-content: space-between;
+}
+
+/* signin */
+
+.signin__wrap{
+    display: flex;
+}
+
+.signin__block{
+    padding: 38px 46px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+.signin__logo{
+    font-family: Montserrat;
+font-size: 25px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: -0.04em;
+text-align: left;
+color: #2B788B;
+margin-bottom: 46px;
+}
+
+.signin__input{
+    background: #C3DCE3;
+    width: 100%;
+    width: 260px;
+    height: 50px;
+    top: 125px;
+    left: 35px;
+    padding: 20px, 230px, 34px, 39px;
+    border-radius: 100px;
+    margin-top: 46px;
+}
+
+.signin__enter{
+    width: Fixed (127px);
+height: Fixed (55px);
+top: 337px;
+left: 54px;
+padding: 14px, 22px, 14px, 22px;
+border-radius: 100px;
+gap: 10px;
+background: #2B788B;
+
+}
